@@ -8,7 +8,7 @@ It is a versatile application designed for use in any type of business that requ
 
 ## Installation and configuration
 
-1. Clone this repository: `git clone https://github.com/tu_usuario/tu_proyecto.git`.
+1. Clone this repository: `git clone https://github.com/pabloperezaguilar5/DjangoApp.git`.
 2. Install the dependencies: `pip install -r requirements.txt`.
 3. Run the migrations: `python manage.py migrate`.
 4. Start the development server: `python manage.py runserver`.
