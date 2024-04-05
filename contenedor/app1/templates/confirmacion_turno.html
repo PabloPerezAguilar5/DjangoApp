@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Turno</title>
+    <link rel="stylesheet" href="{% static "styles.css" %}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .container {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="message-container">
+      <h1>Turno Registrado con Éxito</h1>
+      <p>¡Gracias por reservar un turno con nosotros, te esperamos!</p>
+      <a href="https://www.instagram.com/">
+      <img width="50" height="50" src="https://img.icons8.com/bubbles/50/instagram-new--v2.png" alt="instagram-new--v2"/>
+    </a>
+      <img width="50" height="50" src="https://img.icons8.com/bubbles/50/facebook-circled.png" alt="facebook-circled"/>
+      <img width="50" height="50" src="https://img.icons8.com/bubbles/50/tiktok.png" alt="tiktok"/>
+  </div>
+    <script src="{% static "scripts.js" %}"></script>
+</body>
+</html>

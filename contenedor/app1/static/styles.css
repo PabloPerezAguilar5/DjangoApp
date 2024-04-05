@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto Slab", sans-serif !important;
+  background-color: rgb(32, 31, 31) !important;
+  background-image: url("barber.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.bg-custom {
+  background: #355c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c06c84,
+    #6c5b7b,
+    #355c7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c06c84,
+    #6c5b7b,
+    #355c7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-custom {
+  padding: 1rem !important; /* Reduce el padding */
+  margin-top: 10rem !important; /* Ajusta el margen superior */
+}
+
+.form-control {
+  background-color: #c2c2c2 !important;
+}
+
+.col-md-6 {
+  color: aqua;
+}
+
+label {
+  color: rgb(0, 0, 0);
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Negro con opacidad del 50% */
+  z-index: -1; /* Asegura que esté detrás del contenido */
+}
+
+.message-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(115, 210, 248); /* Color del texto */
+  z-index: 1; /* Asegura que esté encima del fondo */
+}
+
+/* Ocultar el calendario y mostrar solo el selector de tiempo */
+.flatpickr-calendar {
+  display: none;
+}
